@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#101418">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="EVENT SHOT"
+        android:textColor="#FFD54F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Event Mode — auto sort camera photos &amp; videos"
+        android:textColor="#8A94A0"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:id="@+id/etEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Event name (e.g. RAHUL WEDDING)"
+        android:textColorHint="#5A6470"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:inputType="textCapCharacters"
+        android:padding="14dp"
+        android:background="#1B222B"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="START EVENT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#101418"
+        android:backgroundTint="#FFD54F"/>
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="OPEN CAMERA"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2A3542"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="STOP EVENT"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B3413A"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textColor="#8A94A0"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:text="No event active"/>
+</LinearLayout>
